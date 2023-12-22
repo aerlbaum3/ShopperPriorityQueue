@@ -76,7 +76,7 @@ public class PriorityQueueClass {
                 currentIndex = rightChild;//sets currentIndex to be rightChild to prepare for a potential swap.
             }
 
-            if(index != currentIndex) {
+            if(index != currentIndex) {//if the currentIndex is either leftChild or rightChild than swap
                 swap(index, currentIndex);
                 currentIndex = index;
             }
